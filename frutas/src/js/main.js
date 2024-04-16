@@ -14,10 +14,10 @@ for(let i= 0; i<noCritricas.length; i++){
 }
 
 console.group("no citricas");
-console.log( noCritricas);
+console.table( noCritricas);
 console.groupEnd();
 
 console.group("Citricas");
-console.log(citricas);
+console.table(citricas);
 console.group();
 
